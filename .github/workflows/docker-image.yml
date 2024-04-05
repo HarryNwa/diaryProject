@@ -22,8 +22,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: akoskm/my-image:latest
-
+          tags: harrynwa/diary
   build:
 
     runs-on: ubuntu-latest
